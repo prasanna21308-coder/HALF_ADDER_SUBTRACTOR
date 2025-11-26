@@ -63,7 +63,7 @@ Half Subtractor
 
 Half Adder
 
-module half_adder (
+    module half_adder (
 
     input wire a,b,    //Inputs
     
@@ -71,7 +71,7 @@ module half_adder (
    
     output wire carry    //Carry output
    
-);
+    );
 
     // Logic equations
    
@@ -79,18 +79,19 @@ module half_adder (
    
     assign Carry = a & b;    //AND for Carry
    
-   endmodule
+    endmodule
 
 
 Half Subtractor
 
-module half_subtractor (
+
+    module half_subtractor (
 
     input wire a, b,          //Inputs
    
     output wire diff, borrow  //Outputs
    
-);
+    );
 
     // Logic equations 
    
@@ -98,7 +99,7 @@ module half_subtractor (
     
     assign borrow = ~a & b;       // Borrow when a < b
       
-endmodule
+    endmodule
 
 Developed by:PRASANNA V RegisterNumber:25008398
 
