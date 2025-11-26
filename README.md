@@ -52,39 +52,40 @@ Figure -02 HALF Subtractor
 
 Half Adder
 
-module half adder (
+module half_adder (
 
-   input wire a,b,    //Inputs
+    input wire a,b,    //Inputs
     
-   output wire sum,    //Sum output
+    output wire sum,    //Sum output
    
-   output wire carry    //Carry output
+    output wire carry    //Carry output
    
 );
 
-   // Logic equations
+    // Logic equations
    
-   assign sum   = a ^ b;    // XOR for Sum
+    assign sum   = a ^ b;    // XOR for Sum
    
-   assign Carry = a & b;    //AND for Carry
+    assign Carry = a & b;    //AND for Carry
    
    endmodule
+
 
 Half Subtractor
 
 module half_subtractor (
 
-   input wire a, b,          //Inputs
+    input wire a, b,          //Inputs
    
-   output wire diff, borrow  //Outputs
+    output wire diff, borrow  //Outputs
    
 );
 
-   // Logic equations 
+    // Logic equations 
    
-   assign diff   = a ^ b;        //  XOR for difference
-   
-   assign borrow = ~a & b;       // Borrow when a < b
+    assign diff   = a ^ b;        //  XOR for difference
+    
+    assign borrow = ~a & b;       // Borrow when a < b
       
 endmodule
 
