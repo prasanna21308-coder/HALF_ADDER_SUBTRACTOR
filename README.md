@@ -41,7 +41,8 @@ Half Adder
 
 Half Subtractor
 
-<img width="590" height="345" alt="Half Subtractor truthtable" src="https://github.com/user-attachments/assets/46ba8ca0-49ce-41f7-9a0c-f1eff609466a" />
+![WhatsApp Image 2025-11-26 at 22 24 22_7d4325ba](https://github.com/user-attachments/assets/a4487d47-40d1-4476-91e8-42dc9e1d5c6c)
+
 
 
 
